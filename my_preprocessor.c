@@ -85,11 +85,14 @@ void comment_removal(char *p)
     }
 }
 
-void macro_replacement(char *p);
+void macro_replacement(char *p)
 {
-    char *q,*k;
-    q=p;
-    while(*q!=#)
+    char q[10]="#define ";
+    char *k;
+    k=p;
+    while(*q!=*p)
+        q++;
+
 
 
 }
