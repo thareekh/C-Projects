@@ -1,6 +1,6 @@
 #include <stdio.h>
 #include <stdlib.h>
-
+void macro_replacement(char *)
 void comment_removal(char *);
 int main(int argc, char **argv)
 {
@@ -85,5 +85,13 @@ void comment_removal(char *p)
     }
 }
 
+void macro_replacement(char *p);
+{
+    char *q,*k;
+    q=p;
+    while(*q!=#)
+
+
+}
 
 
