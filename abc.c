@@ -3,7 +3,9 @@
 #define abc 3456
 #define pf printf
 #define coding 65
-int main(){
+int main()
+
+{
 // delete single line comment
 int k=abc;
 /* remove multi line comment
