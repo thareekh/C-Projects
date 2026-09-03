@@ -12,12 +12,3 @@ This project demonstrates how some basic preprocessing operations can be impleme
 - Process C source files
 - Generate preprocessed output
 
- Project Structure
-
-my-preprocessor/
-├── main.c
-├── comment.c
-├── macro.c
-├── head.c
-├── header.h
-└── Makefile
